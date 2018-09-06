@@ -11,9 +11,5 @@ def shellSort(arr):
                 arr[j] = arr[j - gap]
                 j -= gap
             arr[j] = aux
-        gap = gap // 2
-    return arr
+        gap = gap//2
 
-
-list = [21, 651, 16, 1, 61, 16, 519, 1, 84, 984, 9, 10, 2, 9, 84, 1]
-print(shellSort(list))
